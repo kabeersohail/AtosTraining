@@ -1,0 +1,93 @@
+<html>
+	<body>
+		<style>
+			body{
+				font-family: sans-serif;
+				margin: 0;
+				padding: 0;
+				background-color: #081420;
+			}
+			form{
+				color:#4f5b62;
+			}
+			img:first-of-type{
+				margin-top: 20px;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.box{
+				background:#17232F;
+				width: 300px;
+				padding: 40px;
+				position: absolute;
+				top: 50%;
+				left:50%;
+				transform: translate(-50%,-50%);
+				text-align: center;
+			}
+
+			.box h1{
+				color: #0066A1;
+				text-transform: uppercase;
+				font-weight: 500;
+			}
+
+			.box input[type="text"],.box input[type="password"]
+			{
+				bordor:0;
+				background:none;
+				display: block;
+				margin:20px auto;
+				text-align: center;
+				border: 2px solid #3498db;
+				padding: 14px 10px;
+				width: 200px;
+				outline: none;
+				color: white;
+				border-radius: 24px;
+				transition: 0.25s;
+			}
+
+			.box input[type="submit"]
+			{
+				bordor:0;
+				background:none;
+				display: block;
+				margin:20px auto;
+				text-align: center;
+				border: 2px solid #3498db;
+				padding: 14px 40px;
+				outline: none;
+				color: white;
+				border-radius: 24px;
+				transition: 0.25s;
+				cursor: pointer;		
+			}
+
+			.box input[type="text"]:focus,.box input[type="password"]:focus
+			{
+				width: 280px;
+				border-color: #2ecc71;
+			}
+
+			.box input[type="submit"]:hover{
+				background:#3498db;
+			}
+
+
+		</style>
+
+
+		<img src="C:\Users\Gunakar Sai\Desktop\atos.png" width="150" height="50">
+		
+		<form class="box">
+			<h1>Sign in</h1>
+			<input type="text" placeholder="User name">
+			<input type="Password" placeholder="Password">
+			<input type="submit" value="login">
+		</form>
+
+	</body>
+</html>
